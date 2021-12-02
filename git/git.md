@@ -1,5 +1,7 @@
 # git的使用
 
+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
+
 ## 1.git的安装
 
 使用库安装：
