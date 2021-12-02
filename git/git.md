@@ -1,7 +1,5 @@
 # git的使用
 
-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
-
 ## 1.git的安装
 
 使用库安装：
@@ -41,6 +39,14 @@ git commit -m [message] //message是提交时的备注
 ```
 
 ![image-20211128164017588](image-20211128164017588.png)
+
+改写提交：git commit --amend
+
+> --amend：重写上一次的提交信息
+
+```
+git commit --amend
+```
 
 4)push
 
