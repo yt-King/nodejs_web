@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h2> <a href="/href/html2.html">  超链接hreffff</a></h2>
+
+<form name="myForm" action="/input"
+onsubmit="return validateForm()" method="get">
+第一个数:<input type="text" name="first"><br>
+第二个数:<input type="text" name="second"><br>
+<input type="submit" value="+" name="submit1">
+<input type="submit" value="-" name="submit1">
+<input type="submit" value="*" name="submit1">
+<input type="submit" value="/" name="submit1">
+</form>
+<script>
+    function validateForm() {
+        var x = document.forms["myForm"]["first"].value;
+        var  y = document.forms["myForm"]["second"].value;
+        if (parseFloat(x).toString()==="NaN") {
+            alert("请在第一个框中输入一个数字");
+            return false;
+        }
+        if (parseFloat(y).toString()==="NaN") {
+            alert("请在第二个框中输入一个数字");
+            return false;
+        }
+    }
+    </script>
+</body>
+</html>
